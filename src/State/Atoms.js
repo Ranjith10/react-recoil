@@ -9,3 +9,8 @@ export const nameAtom = atom({
     key: 'name',
     default: ''
 })
+
+export const numberAtom = atom({
+    key: 'number',
+    default: 0,
+})
