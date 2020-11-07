@@ -1,0 +1,31 @@
+.content-card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: 30px auto;
+    width: 50%;
+    border-radius: 6px;
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,.5);
+    min-height: 100px;
+}
+.value-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+.button-container > button {
+    outline: none;
+    border: none;
+    height: 30px;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 4px;
+
+}
+.button-container > .add-item {
+    margin: 0 10px 0 0 ;
+} 
+.value-container.hidden {
+    display: none;
+}
