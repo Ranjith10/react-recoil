@@ -24,3 +24,8 @@ export const showListAtom = atom({
     key: 'showList',
     default: true,
 })
+
+export const sharedGlobalCounter = atom({
+    key: 'globalCounter',
+    default: 0
+})

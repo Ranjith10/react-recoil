@@ -3,6 +3,7 @@ import React from 'react'
 import CounterOne from './CounterOne'
 import CounterTwo from './CounterTwo'
 import './BasicExample.css'
+import './Counter.css'
 
 const SharedStateExample = () => {
     return (
